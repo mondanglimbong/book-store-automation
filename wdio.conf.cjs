@@ -1,7 +1,7 @@
 exports.config = {
     runner: 'local',
     specs: [
-        './test/specs/**/*.*.js'
+        './test/specs/*/.*.js'
     ],
     maxInstances: 5,
     capabilities: [
@@ -19,7 +19,7 @@ exports.config = {
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
     framework: 'mocha',
-    reporters: ['spec'],
+    reporters: ['spec', ['allure', { outputDir: './allure-results' }]],
     mochaOpts: {
         require: ['@babel/register'],
         timeout: 60000

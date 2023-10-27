@@ -11,11 +11,6 @@ Here in this demo project, I have added the [Axios](https://github.com/axios/axi
 1. [Node.js](http://nodejs.org/)
 * Install at least v12.16.1 or higher as this is the oldest active LTS version.
 * Only releases that are or will become an LTS release are officially supported.
-  1. ***`nvm install 12.16.1`***
-  2. ***`nvm install --lts`***
-  3. ***`nvm use 12.16.1`***
-
-
 2. [VSCode](https://code.visualstudio.com/download)
 3. [Allure](https://docs.qameta.io/allure/#_installing_a_commandline)
 
@@ -24,8 +19,10 @@ Here in this demo project, I have added the [Axios](https://github.com/axios/axi
 2. Open the project in VSCode.
 3. Open the terminal in VSCode.
 4. Execute ***`npm install`*** to install the node modules.
-5. Execute ***`npm test`*** to run the tests.
+5. Execute ***`npm run test`*** to run the tests.
 6. Execute ***`npm run report`*** to generate allure report with videos attached in failure tests.
+
+![img.png](img.png)
 
 ## References
 * [WebDriverIO Official Documentation](https://webdriver.io/docs/gettingstarted.html)
